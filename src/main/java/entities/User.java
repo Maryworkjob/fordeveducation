@@ -9,6 +9,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
+
 public class User {
     private long id;
     private String username;
@@ -18,5 +19,8 @@ public class User {
     private String password;
     private String phone;
     private int userStatus;
+    private String code;
+    private String type;
+    private String message;
 }
 

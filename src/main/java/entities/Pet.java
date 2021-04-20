@@ -18,4 +18,5 @@ public class Pet {
     private List<String> photoUrls;
     private List<Category> tags;
     private String status;
+
 }
